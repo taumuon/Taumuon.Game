@@ -2,6 +2,10 @@
 ============
 
 Demo of using the Bullet Physics Engine in a Windows Phone 8 DirectX 11 app.
+
+Under the WinRT folder is a WP8 app the rendering and physics code is separated into separate WinRT Components, which are consumed by a C# WinRT UI.
+Under the Windows8 folder is a Windows Store app, with all of the code implemented in one project, using standard C++ types instead of C++/CX extensions.
+
 All rendering and physics exposed with WinRT interfaces.
 
 Email queries to gary@taumuon.co.uk or on this post:
